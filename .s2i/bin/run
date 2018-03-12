@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [[ ! -z "$AIRPORTS_ENABLE_API" ]]; then
+    start.sh jupyter kernelgateway
+else
+    start-notebook.sh
+fi
