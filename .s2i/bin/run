@@ -3,5 +3,5 @@
 if [[ ! -z "$AIRPORTS_ENABLE_API" ]]; then
     exec start.sh jupyter kernelgateway
 else
-    exec exec /opt/app-root/builder/run
+    exec /opt/app-root/builder/run
 fi
